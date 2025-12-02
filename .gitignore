@@ -1,0 +1,71 @@
+# Expo & React Native
+node_modules/
+.expo/
+.expo-shared/
+.expo-packager/
+.expo-cache/
+web-build/
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradle/wrapper/gradle-wrapper.jar
+android/.idea/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile
+ios/.idea/
+
+# Firebase
+firebase-credentials.json
+google-services.json
+
+# Misc
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Test coverage
+coverage/
+
+# Expo assets
+assets/**/*.db
+assets/**/*.sqlite
+
+# Others
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.crt
+
+# Temporary files
+*.tmp
+*.temp
+
+# Reports
+android/build/reports/
+firebaseConfig.ts
